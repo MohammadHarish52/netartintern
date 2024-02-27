@@ -4,7 +4,7 @@
 }
 
 .App {
-  background: linear-gradient(to bottom, #fff, #fbfb80);
+  background: linear-gradient(to bottom, #fff, #fdfdb5);
 }
 
 .tagline {
@@ -96,9 +96,30 @@ p {
   justify-content: center;
   align-items: center;
 }
-.Products .product p:nth-child(even) {
-  color: rgb(191, 12, 12);
+.Products .product h3 {
+  color: rgb(212, 40, 40);
   font-weight: bolder;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(212, 40, 40);
+  padding: 24px 12px;
+  padding-bottom: 48px;
+  margin: 4px 4px 0;
+}
+.footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+}
+.footer .icons a {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -115,5 +136,13 @@ p {
   .Products .products_container {
     align-items: flex-start;
     justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: flex-start;
   }
 }

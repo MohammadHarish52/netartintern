@@ -1,6 +1,7 @@
 import "./App.css";
 import Ceremonial from "./components/Ceremonial";
 import DifferentPumps from "./components/DifferentPumps";
+import Footer from "./components/Footer";
 import Products from "./components/Products";
 import Tagline from "./components/Tagline";
 
@@ -11,6 +12,7 @@ function App() {
       <Ceremonial />
       <DifferentPumps />
       <Products />
+      <Footer />
     </div>
   );
 }

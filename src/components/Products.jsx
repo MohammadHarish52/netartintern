@@ -8,7 +8,9 @@ const Products = () => {
         {productData.map((data) => (
           <div className="product" key={data.id}>
             <p>{data.title}</p>
-            <p>|</p>
+            <h3>
+              <b>|</b>
+            </h3>
           </div>
         ))}
       </div>
