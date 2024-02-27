@@ -4,7 +4,7 @@
 }
 
 .App {
-  background: linear-gradient(to bottom, #fff, #fffc63);
+  background: linear-gradient(to bottom, #fff, #fbfb80);
 }
 
 .tagline {
@@ -18,9 +18,16 @@
   width: auto;
 }
 .ceremonial {
+  padding: 12px 36px;
   display: flex;
   justify-content: center;
+  /* flex-wrap: wrap; */
   align-items: center;
+}
+.ceremonial h2,
+li,
+p {
+  font-size: 18px;
 }
 .ceremonial .trophy img {
   height: 728px;
@@ -34,5 +41,79 @@
   align-items: flex-start;
 }
 .ceremonial .ceremonial_details img {
-  width: 900px;
+  width: 100%;
+}
+.pumps {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  padding: 0 12px;
+}
+.pumps p,
+li {
+  font-size: 16px;
+  font-weight: 400;
+}
+.pumps img {
+  width: 80%;
+  height: auto;
+}
+.pumps ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+hr {
+  border: 1px solid rgb(191, 12, 12);
+  width: 100%;
+}
+.Products {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 12px 12px;
+}
+.Products h3,
+p {
+  font-size: 16px;
+}
+.Products p {
+  white-space: nowrap;
+}
+.Products .products_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Products .product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Products .product p:nth-child(even) {
+  color: rgb(191, 12, 12);
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 900px) {
+  .ceremonial {
+    flex-wrap: wrap;
+  }
+  .ceremonial .trophy img {
+    height: 400px;
+  }
+  .ceremonial .ceremonial_details img {
+    width: 100%;
+    height: auto;
+  }
+  .Products .products_container {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }

@@ -5,10 +5,10 @@ const Ceremonial = () => {
         <img src="/assets/1.png" alt="" />
       </div>
       <div className="ceremonial_details">
-        <h3>
+        <h2>
           C.R.I PUMPS WINS THE NATIONAL , ENERGY CONSERVATION AWARD 2018 FOR THE
           4th time.
-        </h3>
+        </h2>
         <ul>
           <li>
             C.R.I energy efficient products are well recognised by various
@@ -24,12 +24,13 @@ const Ceremonial = () => {
           </li>
         </ul>
         <img src="/assets/2.png" alt="Ceremonial" />
-        <h3>
-          Government of India has Awarded the "National Energy conservation
-          Award 2018" .Mr. G. Selvaraj , joint Managing Director of C.R.I Group
-          received the award from Smt Sumitra Mahajan , Speaker of Lok Sabha &
-          Shri. Raj Kumar Singh , Honorable Minister of state
-        </h3>
+        <p>
+          Government of India has Awarded the{" "}
+          <b>"National Energy conservation Award 2018"</b> .Mr. G. Selvaraj ,
+          joint Managing Director of C.R.I Group received the award from Smt
+          Sumitra Mahajan , Speaker of Lok Sabha & Shri. Raj Kumar Singh ,
+          Honorable Minister of state
+        </p>
       </div>
     </div>
   );
