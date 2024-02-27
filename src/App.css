@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: linear-gradient(to bottom, #fff, #fffc63);
+}
+
+.tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+.tagline .logo {
+  height: 96px;
+  width: auto;
+}
+.ceremonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceremonial .trophy img {
+  height: 728px;
+  width: Auto;
+}
+.ceremonial .ceremonial_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+}
+.ceremonial .ceremonial_details img {
+  width: 900px;
+}
